@@ -1,0 +1,29 @@
+.upload-crop-component-wrapper__image {
+  color: green; }
+  .upload-crop-component-wrapper__image .drop-zone {
+    border: dotted;
+    border-radius: 10px;
+    position: relative; }
+    .upload-crop-component-wrapper__image .drop-zone__thumbnail {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%);
+      text-align: center; }
+
+.upload-crop-component-wrapper__config {
+  display: flex;
+  align-items: center;
+  margin: 15px 0; }
+  .upload-crop-component-wrapper__config .item {
+    margin-right: 10px; }
+    .upload-crop-component-wrapper__config .item.slider:focus {
+      outline: none;
+      border: none; }
+    .upload-crop-component-wrapper__config .item.icon {
+      font-size: 20px;
+      margin-left: 5px;
+      cursor: pointer; }
+
+.upload-crop-component-wrapper__preview img {
+  max-width: 100%; }

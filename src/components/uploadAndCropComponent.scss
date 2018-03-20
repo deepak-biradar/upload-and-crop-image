@@ -1,0 +1,48 @@
+.upload-crop-component-wrapper {
+    &__image {
+        color: green;
+        
+        .drop-zone {
+            border: dotted;
+            border-radius: 10px;
+            position: relative;
+
+            &__thumbnail {
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%);
+                text-align: center;
+            }
+        }
+    }
+
+    &__config {
+        display: flex;
+        align-items: center;
+        margin: 15px 0;
+
+        .item {
+            margin-right: 10px;
+
+            &.slider {
+                &:focus {
+                    outline: none;
+                    border: none;
+                }
+            }
+
+            &.icon {
+                font-size: 20px;
+                margin-left: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__preview {
+        img {
+            max-width: 100%;
+        }
+    }
+}
